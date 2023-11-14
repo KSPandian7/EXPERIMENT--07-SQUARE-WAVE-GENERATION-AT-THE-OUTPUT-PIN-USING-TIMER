@@ -96,12 +96,10 @@ Step14. click on debug and simulate using simulation as shown below
   
 
 ## STM 32 CUBE PROGRAM :
-
-```c
-DEVELOPED BY : KULASEKARAPANDIAN K
-REGISTER NO : 212222240052
 ```
-
+NAME : KULASEKARAPANDIAN K
+REF NO : 212222240052
+```
 ```c
 MX_GPIO_Init();
 MX_TIM2_Init();
@@ -112,45 +110,65 @@ MX_TIM2_Init();
 }
 ```
 
+
+
+
 ## Output screen shots of proteus  :
- ![Alt text](275345454-434c7db1-0fd5-41e3-a685-5ee7f094e226.png)
+  ## AT 500:
+![280251596-a17e9858-8644-46f5-b7d9-019e35b2cc15](https://github.com/charumathiramesh/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/120204455/273b4536-765d-461d-8b68-d5fee6b5dda3)
 
 
-![Alt text](275346222-9cbf803d-772e-487f-a742-ee96efa7e040.png)
+  ## AT 700:
+
+![280252852-a0b73a7e-7bcb-48a9-9107-d8b6ffdff36d](https://github.com/charumathiramesh/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/120204455/432d7a99-dc07-4a8d-b118-a412951d4463)
+
+  ## AT 900:
+![280252872-075ee7ad-612e-4cc0-9c5d-fc0546077669](https://github.com/charumathiramesh/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/120204455/2b089a7c-8c5a-4be1-ad65-73f713700948)
+
+  
+
+
+ ## Output screen shots of proteus : 
+![280249649-ee48609b-245d-41a5-beb5-1d59cefd6dfe](https://github.com/charumathiramesh/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/120204455/52bf1381-40e8-4065-8726-a964ed25f7d8)
+
  
  ## CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREEN SHOT HERE): 
- ![Alt text](275346312-22f1bc51-db24-49bf-9ba1-fffaf896006b.png)
 
-
-![Alt text](275346345-0ddc77b8-035d-45eb-ae13-bf7ac507853c.png)
-
-
-![Alt text](275346370-2ed4b95a-c141-49a2-9b5b-c428b0933729.png)
-
-
-![Alt text](275346384-e20fba73-e37c-4a3a-a0e7-8a041d61b30f.png)
-
-
-![Alt text](275346396-52d3e46a-5856-4cb3-9c98-33ed98b017ef.png)
-
-
-![Alt text](275346410-da247ff3-0819-4fe5-9508-1087bc9c34f6.png)
+![280249725-1990e6e8-f19e-4657-9b25-f6eea0cfab20](https://github.com/charumathiramesh/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/120204455/a5fb1917-ce98-4a36-9e72-0575abd64815)
 
 
 ## DUTY CYCLE AND FREQUENCY CALCULATION 
-FOR PULSE AT 2700
+FOR PULSE AT 500
+```
+ TON  = 2ms
+  TOFF = 2ms
+  TOTAL TIME = 4 
+  FREQUENCY = 1/(TOTAL TIME)
+            = 1/(410^-3)
+            = 250Hz
+```
 
-TON = 1.30.5=0.65 TOFF=2.20.1.1 TOTAL TIME = 1.75 FREQUENCY = 0.65/(1.75)*100=37%
+FOR PULSE AT 700
+```
+TON  = 2.17ms
+TOFF = 0.93ms
+TOTAL TIME = 3.1 
+FREQUENCY = 1/(TOTAL TIME)
+          = 1/(3.110^-3)
+          = 322.58Hz
 
-FOR PULSE AT 4000
+```
 
-TON = 20.5=1 TOFF=1.60.5=0.8 TOTAL TIME =1.8 FREQUENCY = 1/(1.8)*100=55%
+FOR PULSE AT 900
+```
+TON  = 2.88ms
+TOFF = 0.32ms
+TOTAL TIME = 3.2 
+FREQUENCY = 1/(TOTAL TIME)
+          = 1/(3.210^-30
+          = 312.5Hz
 
-FOR PULSE AT 1700
-
-TON =0.90.5=0.45 TOFF=2.90.5=1.45 TOTAL TIME =1.9 FREQUENCY = 0.45/(1.9)*100=23%
-
-
+```
 ## Result :
 A PWM Signal is generated using the following frequency and various duty cycles are simulated 
 
